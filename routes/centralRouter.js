@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/postresult', function(req, res, next) {
     var message = req.body.comment;
-    FB.setAccessToken('Please Insert Your Acccess Token'); // Please Insert Your Acccess Token
+    FB.setAccessToken('{{Please Insert Your Acccess Token}}'); // Please Insert Your Acccess Token
     FB.api('{{Please Insert Your Facebook Page Id}}/feed', 'post', { //Please Insert Your Facebook Page Id
         message: message
     }, function(res) {
