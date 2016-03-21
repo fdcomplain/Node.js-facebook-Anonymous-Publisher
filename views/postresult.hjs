@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container" style="max-width:600px">
+        <h2>
+            <div class="alert alert-success">
+                <strong>恭喜你，成功送出你偉大的靠北文！</strong>
+            </div>
+        </h2>
+    </div>
+  </body>
+</html>
